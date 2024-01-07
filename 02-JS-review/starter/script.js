@@ -135,10 +135,10 @@ const data = [
   },
 ];
 
-function getBooks() {
+const getBooks = () => {
   return data;
 }
 
-function getBook(id) {
+const getBook = (id) => {
   return data.find((d) => d.id === id);
 }
